@@ -47,7 +47,7 @@ public class EditarTemaServlet extends HttpServlet {
         Tema nuevoTema = new Tema(codigo, nombre, codArea);
 
         try {
-            TemaXmlDAO data = TemaXmlDAO.abrirDocumento(getServletContext().getRealPath("/temas.xml"));
+            TemaXmlDAO data = TemaXmlDAO.abrirDocumento(getServletContext().getRealPath("/WEB-INF/data/temas.xml"));
             if (data.editarTema(nuevoTema)) {
                 resp.getWriter().println("Tema actualizado correctamente.");
             } else {

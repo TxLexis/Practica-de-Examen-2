@@ -25,7 +25,7 @@ public class EliminarTemaServlet extends HttpServlet {
         int codigo = Integer.parseInt(req.getParameter("codigo"));
 
         try {
-            TemaXmlDAO data = TemaXmlDAO.abrirDocumento(getServletContext().getRealPath("/temas.xml"));
+            TemaXmlDAO data = TemaXmlDAO.abrirDocumento(getServletContext().getRealPath("/WEB-INF/data/temas.xml"));
             boolean eliminado = data.eliminarTema(codigo);
 
             if (eliminado) {

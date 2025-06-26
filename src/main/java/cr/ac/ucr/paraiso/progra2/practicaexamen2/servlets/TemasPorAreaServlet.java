@@ -23,13 +23,20 @@ public class TemasPorAreaServlet extends HttpServlet {
 @Override
 protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     String codigoParam = request.getParameter("codigo");
+    System.out.println("codigoParam recibido: " + codigoParam);
 
     if (codigoParam == null || codigoParam.isBlank()) {
-        response.sendError(HttpServletResponse.SC_BAD_REQUEST, "Debe proporcionar el código de área.");
+        response.sendRedirect("MostrarAreas");
         return;
     }
 
-    int codigoArea = Integer.parseInt(codigoParam);
+    int codigoArea;
+    try {
+        codigoArea = Integer.parseInt(codigoParam);
+    } catch (NumberFormatException e) {
+        response.sendError(HttpServletResponse.SC_BAD_REQUEST, "El código debe ser un número válido.");
+        return;
+    }
 
     try {
         TemaXmlDAO data = TemaXmlDAO.abrirDocumento(getServletContext().getRealPath("/WEB-INF/data/temas.xml"));

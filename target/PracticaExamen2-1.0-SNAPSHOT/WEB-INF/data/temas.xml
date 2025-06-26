@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <temas>
   <tema>
-    <codigo>1</codigo>
-    <nombre>Java Básico</nombre>
-    <codArea>101</codArea>
-  </tema>
-  <tema>
     <codigo>123</codigo>
     <nombre>ALEXANDER</nombre>
     <codArea>101</codArea>
-  </tema>
-  <tema>
-    <codigo>123123</codigo>
-    <nombre>Maverick</nombre>
-    <codArea>102</codArea>
-  </tema>
-  <tema>
-    <codigo>1232</codigo>
-    <nombre>ALEXANDER</nombre>
-    <codArea>101</codArea>
-  </tema>
-  <tema>
-    <codigo>12323</codigo>
-    <nombre>ALEXANDER</nombre>
-    <codArea>102</codArea>
   </tema>
 </temas>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<areas>
+    <area>
+        <codigo>101</codigo>
+        <nombre>Programación</nombre>
+    </area>
+    <area>
+        <codigo>102</codigo>
+        <nombre>Bases de Datos</nombre>
+    </area>
+</areas>

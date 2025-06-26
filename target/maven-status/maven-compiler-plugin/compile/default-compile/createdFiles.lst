@@ -1,0 +1,12 @@
+cr\ac\ucr\paraiso\progra2\practicaexamen2\data\TemaXmlDAO.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\servlets\EditarTemaServlet.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\JakartaRestConfiguration.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\servlets\SalvarTemaServlet.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\servlets\InsertarTemaServlet.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\data\AreaConocimientoXmlDAO.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\servlets\EliminarTemaServlet.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\servlets\TemasPorAreaServlet.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\resources\JakartaEE10Resource.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\servlets\MostrarAreasServlet.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\domain\Tema.class
+cr\ac\ucr\paraiso\progra2\practicaexamen2\domain\AreaConocimiento.class

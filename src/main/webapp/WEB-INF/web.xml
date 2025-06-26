@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    
+    <servlet>
+        <servlet-name>SalvarTemaServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.practicaexamen2.servlets.SalvarTemaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MostrarAreasServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.practicaexamen2.servlets.MostrarAreasServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditarTemaServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.practicaexamen2.servlets.EditarTemaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InsertarTemaServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.practicaexamen2.servlets.InsertarTemaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TemasPorAreaServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.practicaexamen2.servlets.TemasPorAreaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EliminarTemaServlet</servlet-name>
+        <servlet-class>cr.ac.ucr.paraiso.progra2.practicaexamen2.servlets.EliminarTemaServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SalvarTemaServlet</servlet-name>
+        <url-pattern>/SalvarTema</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InsertarTemaServlet</servlet-name>
+        <url-pattern>/InsertarTema</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MostrarAreasServlet</servlet-name>
+        <url-pattern>/MostrarAreas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TemasPorAreaServlet</servlet-name>
+        <url-pattern>/TemasPorArea</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditarTemaServlet</servlet-name>
+        <url-pattern>/EditarTema</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminarTemaServlet</servlet-name>
+        <url-pattern>/EliminarTema</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
